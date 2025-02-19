@@ -1,7 +1,7 @@
 # Analisis de posiciones de lucha y detección de los luchadores mediante inteligencia artificial
 ## Descripción
 
-Versión 1. 
+Versión 2.
 
 **Modelos utilizados:**
 
@@ -11,11 +11,12 @@ Esqueletos:  HRNet 50
 
 Analisis de secuencia:  LSTM
 
+
 **Descripción de versión**
-Primera versión del proyecto.
+Segunda versión del proyecto.
 
 **Preprocesamiento** 
-- El dataset se acota a 30.000 imagenes por limitación de recursos
+- El dataset se aumenta la cantidad de datos hasta 76343 (Todo el dataset con los dos peleadores presentes)
 - se redimensionan las imagenes.
 - se reduce el numero de anotaciones coincidiendo con el numero de imagenes
 - se eliminan aquellas imagenes en las que solo aparezcan uno de los dos peleadores.
