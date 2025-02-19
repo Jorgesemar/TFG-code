@@ -21,6 +21,8 @@ Segunda versión del proyecto.
 - se reduce el numero de anotaciones coincidiendo con el numero de imagenes
 - se eliminan aquellas imagenes en las que solo aparezcan uno de los dos peleadores.
 - Se normalizan las coordenadas de las poses
+- Se cambia el color de las imagenes a blanco y negro
+- Se aplica el filtro sobel para aumentar el contraste
 
 ## Estructura
 ### Analisis.ipynb:
