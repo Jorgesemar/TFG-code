@@ -13,7 +13,7 @@ Analisis de secuencia:  LSTM
 
 
 **Descripción de versión**
-Segunda versión del proyecto.
+Segundo acercamiento al proyecto, aumentando la cantidad de datos y aplicando nuevos filtros para mejorar la estimación de poses.
 
 **Preprocesamiento** 
 - El dataset se aumenta la cantidad de datos hasta 76343 (Todo el dataset con los dos peleadores presentes)
@@ -45,8 +45,7 @@ Funciones necesarias para el entrenamiento de un modelo LSTM para la predicción
 Funciones necesarias para el entrenamiento de un modelo resNet 18 para la clasificación de imagenes en base a sus etiquetas. 
 ### Pose.ipybn
 
-Funciones necesarias para el entrenamiento de un modelo HRNet para prediccion los puntos claves de las poses 
+Funciones necesarias para el entrenamiento de un modelo HRNet para prediccion los puntos claves de las poses junto con preprocesamiento adicional. 
 ### Preprocesamiento.ipybn
 
 Funciones necesarias para el preprocesamiento de las imagenes y etiquetas.
-## Resultados:
