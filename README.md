@@ -12,7 +12,7 @@ Esqueletos:  HRNet 50
 Analisis de secuencia:  LSTM
 
 **Descripción de versión**
-Primera versión del proyecto.
+Primer acercamiento al proyecto.
 
 **Preprocesamiento** 
 - El dataset se acota a 30.000 imagenes por limitación de recursos
@@ -31,9 +31,11 @@ Analisis de las etiquetas e imagenes ya preprocesadas, inclutendo:
 - Matriz de transiciones entre posiciones
 
 - Grafico de duración promedio de cada posición
+
 ### Generador de video.ipybn:
 
-Pruebas de visualizacion cargando los modelos entrenados. Visualización de los esqueletos, las clases y las predicciones de secuencia "en tiempo real"
+Pruebas de visualizacion cargando los modelos entrenados. Visualización de los esqueletos, las clases y las predicciones de secuencia de forma individual y conjunta. 
+
 ### AnalisisSecuencial.ipybn:
 
 Funciones necesarias para el entrenamiento de un modelo LSTM para la predicción de las secuencias de una posición a otra
@@ -46,4 +48,3 @@ Funciones necesarias para el entrenamiento de un modelo HRNet para prediccion lo
 ### Preprocesamiento.ipybn
 
 Funciones necesarias para el preprocesamiento de las imagenes y etiquetas.
-## Resultados:
