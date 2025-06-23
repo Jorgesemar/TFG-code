@@ -13,7 +13,7 @@ Analisis de secuencia:  LSTM
 
 
 **Descripción de versión**
-Segunda versión del proyecto.
+Tercera version del proyecto donde a parte del filtro shobel se elige borrar el fondo para el entrenamiento de detección de poses
 
 **Preprocesamiento** 
 - El dataset se aumenta la cantidad de datos hasta 76343 (Todo el dataset con los dos peleadores presentes)
@@ -21,6 +21,8 @@ Segunda versión del proyecto.
 - se reduce el numero de anotaciones coincidiendo con el numero de imagenes
 - se eliminan aquellas imagenes en las que solo aparezcan uno de los dos peleadores.
 - Se normalizan las coordenadas de las poses
+- Se aplica filtro sobel a todas las imagenes
+- se borra el fondo para la detección de poses
 
 ## Estructura
 ### Analisis.ipynb:
